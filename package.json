@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/es/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "cesium": "^1.91.0",
+    "rollup": "^2.69.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-ts": "^2.0.5",
+    "typescript": "^4.6.2"
+  }
+}
